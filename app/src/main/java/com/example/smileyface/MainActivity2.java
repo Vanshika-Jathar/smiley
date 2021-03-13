@@ -6,20 +6,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
-smiley s;
-
+public class MainActivity2 extends AppCompatActivity {
+    star st;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
-        s=new smiley(MainActivity.this);
-        setContentView(s);
-        s.setOnClickListener(new View.OnClickListener() {
+        st =new star(MainActivity2.this);
+        setContentView(st);
+        st.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(MainActivity.this, MainActivity2.class);
+                Intent intent= new Intent(MainActivity2.this, MainActivity3.class);
                 startActivity(intent);
             }
         });
     }
-}
+    }

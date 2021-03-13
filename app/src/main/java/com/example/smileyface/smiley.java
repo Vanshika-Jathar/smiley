@@ -70,7 +70,7 @@ public class smiley extends View {
     }*/
 
 
-       /* path.moveTo(x - 20, y - 20); // Top
+       /*path.moveTo(x - 20, y - 20); // Top
         path.lineTo(x + 20, y - 20); // Bottom left
         path.lineTo(x + 20, y + 50); // Bottom right
         path.lineTo(x - 20, y + 50); // Back to Top
@@ -78,7 +78,7 @@ public class smiley extends View {
         path.close();
         canvas.drawPath(path, paint);
         paint.setColor(Color.WHITE);
-         int halfWidth = 500/2;
+        // int halfWidth = 500/2;
 
         path.moveTo(x-15, y-15 ); // Top
         path.lineTo(x - halfWidth, y + halfWidth); // Bottom left
@@ -88,7 +88,7 @@ public class smiley extends View {
         canvas.drawPath(path, paint);
 
 
-        /* paint.setColor(Color.BLUE);
+         paint.setColor(Color.BLUE);
         paint.setStrokeWidth(5);
         int halfWidth1 = 250;
         //int halfWidth2=350;
